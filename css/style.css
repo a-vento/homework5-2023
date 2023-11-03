@@ -1,4 +1,4 @@
-img {
+#logo {
     position: relative;
     animation: mymove 5s;
     width:475px;
@@ -86,7 +86,7 @@ header{
      }
 }
 
-/* @media (orientation: portrait) {
+/* @media print {
     body {
         flex-direction: column;
         font-family: 'Arial', 'Helvetica';
