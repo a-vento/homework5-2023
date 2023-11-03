@@ -13,7 +13,7 @@
 }
 
 body{
-    font-family: 'Poppins', 'serif';
+    font-family: 'Poppins', serif;
     background: url("../images/concrete_seamless.png");
     background-color: #f1f1f1;
 }
@@ -63,7 +63,7 @@ header{
     /* align-items: center;  */
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 900px){
     header{
         flex-direction: row;
         justify-content: space-between
@@ -72,9 +72,6 @@ header{
         flex-direction: row;
         flex: 100%;
         justify-content: space-between
-    }
-    .pricing{
-        
     }
     .card{
         flex-basis: 275px;
@@ -92,9 +89,29 @@ header{
         font-family: 'Arial', 'Helvetica';
         background-image:none
     }
+    nav{
+        width: 100%;
+        /* justify-content: space-between; */
+    }
+    .nav_links{
+        flex-direction: row;
+        justify-content: space-around;
+        overflow:visible
+    }
+    .pricing{
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
     .card{
         border: solid 2px #45ADDD;
         flex-basis: 325px;
-        flex-wrap: nowrap;
+        min-width: 0;
     }
+    #gallery{
+        display: none;
+    }   
+    .gallery{
+        display: none;
+    }   
+
   }
