@@ -28,7 +28,7 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .card > header{
@@ -86,7 +86,7 @@ header{
      }
 }
 
-/* @media print {
+@media print {
     body {
         flex-direction: column;
         font-family: 'Arial', 'Helvetica';
@@ -97,4 +97,4 @@ header{
         flex-basis: 325px;
         flex-wrap: nowrap;
     }
-  } */
+  }
