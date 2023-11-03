@@ -1,4 +1,4 @@
-#logo {
+img {
     position: relative;
     animation: mymove 5s;
     width:475px;
@@ -10,14 +10,6 @@
 @keyframes mymove{
     from {width: 25px; opacity: 0;}
     to {width: 475px; opacity: 1;}
-}
-img {
-    position: relative;
-    /* animation: mymove 5s; */
-    width:475px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 body{
@@ -94,7 +86,7 @@ header{
      }
 }
 
-@media (orientation: portrait) {
+/* @media (orientation: portrait) {
     body {
         flex-direction: column;
         font-family: 'Arial', 'Helvetica';
@@ -105,4 +97,4 @@ header{
         flex-basis: 325px;
         flex-wrap: nowrap;
     }
-  }
+  } */
