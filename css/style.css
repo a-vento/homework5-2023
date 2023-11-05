@@ -31,6 +31,12 @@ header{
     align-items: flex-start;
     justify-content: center;
 }
+content {
+    margin-top: 100px;
+}
+a, a:visited {
+    color: blue;
+}
 .card > header{
     background: #288088;
     border: solid 2px #45ADAD;
@@ -68,6 +74,16 @@ header{
         flex-direction: row;
         justify-content: space-between
     } 
+    body > header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+      }
+    #skip{
+    margin-top: 100px;
+    }
     .nav_links{
         flex-direction: row;
         flex: 100%;
@@ -113,5 +129,9 @@ header{
     .gallery{
         display: none;
     }   
-
+    #skip > div.pricing > div:nth-child(1) > ul > li:nth-child(2)::after,
+    #skip > div.pricing > div:nth-child(2) > ul > li:nth-child(2)::after,
+    #skip > div.pricing > div:nth-child(3) > ul > li:nth-child(2)::after{
+        content: '\1F44D';
+    }
   }
